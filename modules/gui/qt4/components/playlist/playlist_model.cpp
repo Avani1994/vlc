@@ -990,7 +990,7 @@ bool PLModel::isSupportedAction( actions action, const QModelIndex &index ) cons
     case ACTION_SAVE:
     case ACTION_INFO:
     case ACTION_REMOVE:
-        return index.isValid() && index != rootIndex();
+       return index.isValid() && index != rootIndex();
     case ACTION_EXPLORE:
         if( index.isValid() )
             return getURI( index ).startsWith( "file://" );

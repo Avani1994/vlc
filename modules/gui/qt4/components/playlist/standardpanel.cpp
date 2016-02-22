@@ -233,8 +233,8 @@ bool StandardPLPanel::popup( const QPoint &point )
 
     /* Item removal */
 
-    ADD_MENU_ENTRY( QIcon( ":/buttons/playlist/playlist_remove" ), qtr(I_POP_DEL),
-                    VLCModelSubInterface::ACTION_REMOVE );
+   /* ADD_MENU_ENTRY( QIcon( ":/buttons/playlist/playlist_remove" ), qtr(I_POP_DEL),
+                    VLCModelSubInterface::ACTION_REMOVE ); */
 
     ADD_MENU_ENTRY( QIcon( ":/toolbar/clear" ), qtr("Clear the playlist"),
                     VLCModelSubInterface::ACTION_CLEAR );
